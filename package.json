@@ -4,6 +4,7 @@
   "description": "Teste em GraphQL com Pactum",
   "main": "index.js",
   "scripts": {
+    "wdio": "wdio run wdio.conf.js",
     "test": "mocha ./test/**/*.test.js",
     "test:gql": "mocha ./test/graphql/**/*.test.js",
     "test:rest": "mocha ./test/api/**/*.test.js",
